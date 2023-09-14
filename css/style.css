@@ -1,0 +1,42 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* OTHER SETTINGS */
+
+img { max-width: 100%;
+      min-height: 300px;
+
+}
+
+body { 
+    background-color: blue;
+    font-family: Fredoka;
+}
+
+/* CONTAINER */
+
+.container {
+
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+
+
+}
+
+
+.col {
+
+    border: 2px solid red;
+}
+
+.cards {
+
+    border: 1px solid yellow;
+    background-color: aqua;
+}
