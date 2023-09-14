@@ -24,7 +24,6 @@ main {padding-top: 7rem;}
 
 .main-title {
     text-align: center;
-    font-size: 1.5rem;
     font-weight: bold;
     padding-bottom: 50px;
 }
@@ -32,7 +31,7 @@ main {padding-top: 7rem;}
 /* CONTAINER */
 
 .container {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
 
 }
@@ -49,7 +48,7 @@ main {padding-top: 7rem;}
 }
 
 .cards img {
-    height: 100px;
+    height: 80px;
     float: left;
  
   
@@ -64,7 +63,7 @@ main {padding-top: 7rem;}
 
 .cards
 { background-color: rgb(56, 184, 184);
-  min-height: 100px;
+  min-height: 80px;
   text-align: center;
 
 
