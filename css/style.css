@@ -32,8 +32,9 @@ main {padding-top: 7rem;}
 /* CONTAINER */
 
 .container {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
+
 }
 
 /* COLUMS */
@@ -43,12 +44,15 @@ main {padding-top: 7rem;}
     float: left;
     width: calc(100% / 3);
     
+    
+    
 }
 
 .cards img {
     height: 100px;
     float: left;
-   
+ 
+  
     
 }
 
@@ -59,7 +63,7 @@ main {padding-top: 7rem;}
 }
 
 .cards
-{ background-color: aqua;
+{ background-color: rgb(56, 184, 184);
   min-height: 100px;
   text-align: center;
 
