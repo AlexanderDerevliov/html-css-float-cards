@@ -1,83 +1,42 @@
 /* RESET */
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-/* GENERAL SETTING */
+/* OTHER SETTINGS */
 
-img {
-    max-width: 100%;
+img { max-width: 100%;
+      min-height: 300px;
+
 }
 
-body {
-    font-family: 'Fredoka', sans-serif;
-    background-color: rgb(32, 32, 59);
+body { 
+    background-color: blue;
+    font-family: Fredoka;
 }
 
+/* CONTAINER */
 
 .container {
+
     width: 80%;
-    margin: 0 auto;
+    margin: auto;
     text-align: center;
+    padding-top: 50px;
+
+
 }
 
-main {
-    padding-top: 6rem;
-}
-
-
-
-h1, h2, h3 { 
-    color: rgb(27, 154, 4);
-    
-  
-}
-
-.main-title, {
-    font-size: 1.2rem;
-    padding-bottom: 2rem;
- 
-}
-
-
-/* COLUMNS */
 
 .col {
-    padding: 10PX 15px;
-    float: left;
-    width: calc(100% / 3);
-}
-   
 
-.col img {
-    height: 100px;
-    float: left;
-}
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+    border: 2px solid red;
 }
 
 .cards {
-    background-color: rgb(177, 255, 163);
-    min-height: 100px;
-    float: left;
-    box-shadow: 3px 3px;
-}
 
-
-footer {
-    padding: 4rem 0;
-    margin: auto;
-    width: auto;
-    line-height: normal;
-    vertical-align: middle;
-    font-size: 2.5rem;
-    padding-bottom: 2rem;
-    color: rgb(27, 154, 4);
-    vertical-align: middle;
+    border: 1px solid yellow;
+    background-color: aqua;
 }
