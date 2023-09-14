@@ -7,36 +7,61 @@
 
 /* OTHER SETTINGS */
 
-img { max-width: 100%;
-      min-height: 300px;
+img { 
+    max-width: 100%;    
+}
 
+h1, h2, h2 {
+    color: rgb(8, 228, 8);
 }
 
 body { 
-    background-color: blue;
+    background-color: rgb(2, 2, 153);
     font-family: Fredoka;
+}
+
+main {padding-top: 7rem;}
+
+.main-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 50px;
 }
 
 /* CONTAINER */
 
 .container {
-
     width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
-
-
+    margin: 0 auto;
 }
 
+/* COLUMS */
 
 .col {
-
-    border: 2px solid red;
+    padding: 10px 20px;
+    float: left;
+    width: calc(100% / 3);
+    
 }
 
-.cards {
+.cards img {
+    height: 100px;
+    float: left;
+   
+    
+}
 
-    border: 1px solid yellow;
-    background-color: aqua;
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cards
+{ background-color: aqua;
+  min-height: 100px;
+  text-align: center;
+
+
 }
