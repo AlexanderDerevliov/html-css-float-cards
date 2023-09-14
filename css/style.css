@@ -34,12 +34,12 @@ main {padding-top: 7rem;}
 .container {
     width: 80%;
     margin: 0 auto;
+    min-height: 600px;
 }
 
 /* COLUMS */
 
 .col {
-    padding: 10px 20px;
     float: left;
     width: calc(100% / 3);
     padding: 8px 15px;
