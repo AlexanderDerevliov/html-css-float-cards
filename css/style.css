@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 
 /* OTHER SETTINGS */
@@ -12,12 +13,12 @@ img {
 }
 
 h1, h2, h3 {
-    color: rgb(102, 147, 102);
+    color: rgba(106, 179, 106, 0.796);
 }
 
 body { 
     background-color: rgb(11, 11, 82);
-    font-family: Fredoka;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main {padding-top: 7rem;}
@@ -26,7 +27,7 @@ main {padding-top: 7rem;}
 .main-title {
     text-align: center;
     font-size: 2rem;
-    padding-bottom: 50px;
+    margin-bottom: 5em;
 }
 
 /* CONTAINER */
@@ -43,10 +44,14 @@ main {padding-top: 7rem;}
     float: left;
     width: calc(100% / 3);
     padding: 8px 15px;
+    
 }
 
+/* CARDS */
+
+
 .cards img {
-    height: 80px;
+    width: 100px;
     float: left;
 }
 
@@ -57,8 +62,7 @@ main {padding-top: 7rem;}
 }
 
 .cards
-{ background-color: rgb(103, 239, 239);
-  min-height: 80px;
+{ background-color: rgba(103, 239, 239, 0.345);
+  box-shadow: 4px 4px;
   text-align: center;
-  box-shadow: 5px 5px;
 }
